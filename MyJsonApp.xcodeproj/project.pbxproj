@@ -7,19 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C099BF02314CFF30086B7FF /* IndicatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C099BEF2314CFF30086B7FF /* IndicatorModel.swift */; };
+		3C475995230F9CC700E7BDB4 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C475994230F9CC700E7BDB4 /* MainViewController.swift */; };
+		3C475997230FC33400E7BDB4 /* ResultTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C475996230FC33400E7BDB4 /* ResultTableViewController.swift */; };
+		3C475999230FC3AB00E7BDB4 /* ResultTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C475998230FC3AB00E7BDB4 /* ResultTableViewCell.swift */; };
+		3C47599B230FC60200E7BDB4 /* MovieData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C47599A230FC60200E7BDB4 /* MovieData.swift */; };
+		3C47599D230FECB000E7BDB4 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C47599C230FECB000E7BDB4 /* DetailViewController.swift */; };
 		3CF180902301980500EA5E7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF1808F2301980500EA5E7C /* AppDelegate.swift */; };
 		3CF180922301980500EA5E7C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF180912301980500EA5E7C /* SceneDelegate.swift */; };
-		3CF180942301980500EA5E7C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF180932301980500EA5E7C /* ViewController.swift */; };
 		3CF180972301980500EA5E7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CF180952301980500EA5E7C /* Main.storyboard */; };
 		3CF180992301980800EA5E7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CF180982301980800EA5E7C /* Assets.xcassets */; };
 		3CF1809C2301980800EA5E7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CF1809A2301980800EA5E7C /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3C099BEF2314CFF30086B7FF /* IndicatorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndicatorModel.swift; sourceTree = "<group>"; };
+		3C475994230F9CC700E7BDB4 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		3C475996230FC33400E7BDB4 /* ResultTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultTableViewController.swift; sourceTree = "<group>"; };
+		3C475998230FC3AB00E7BDB4 /* ResultTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultTableViewCell.swift; sourceTree = "<group>"; };
+		3C47599A230FC60200E7BDB4 /* MovieData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieData.swift; sourceTree = "<group>"; };
+		3C47599C230FECB000E7BDB4 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		3CF1808C2301980500EA5E7C /* MyJsonApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyJsonApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CF1808F2301980500EA5E7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3CF180912301980500EA5E7C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3CF180932301980500EA5E7C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3CF180962301980500EA5E7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3CF180982301980800EA5E7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3CF1809B2301980800EA5E7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,7 +68,12 @@
 			children = (
 				3CF1808F2301980500EA5E7C /* AppDelegate.swift */,
 				3CF180912301980500EA5E7C /* SceneDelegate.swift */,
-				3CF180932301980500EA5E7C /* ViewController.swift */,
+				3C475994230F9CC700E7BDB4 /* MainViewController.swift */,
+				3C475996230FC33400E7BDB4 /* ResultTableViewController.swift */,
+				3C475998230FC3AB00E7BDB4 /* ResultTableViewCell.swift */,
+				3C47599C230FECB000E7BDB4 /* DetailViewController.swift */,
+				3C47599A230FC60200E7BDB4 /* MovieData.swift */,
+				3C099BEF2314CFF30086B7FF /* IndicatorModel.swift */,
 				3CF180952301980500EA5E7C /* Main.storyboard */,
 				3CF180982301980800EA5E7C /* Assets.xcassets */,
 				3CF1809A2301980800EA5E7C /* LaunchScreen.storyboard */,
@@ -83,6 +98,8 @@
 			dependencies = (
 			);
 			name = MyJsonApp;
+			packageProductDependencies = (
+			);
 			productName = MyJsonApp;
 			productReference = 3CF1808C2301980500EA5E7C /* MyJsonApp.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +128,8 @@
 				Base,
 			);
 			mainGroup = 3CF180832301980500EA5E7C;
+			packageReferences = (
+			);
 			productRefGroup = 3CF1808D2301980500EA5E7C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,9 +157,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3CF180942301980500EA5E7C /* ViewController.swift in Sources */,
+				3C47599B230FC60200E7BDB4 /* MovieData.swift in Sources */,
+				3C475997230FC33400E7BDB4 /* ResultTableViewController.swift in Sources */,
+				3C475995230F9CC700E7BDB4 /* MainViewController.swift in Sources */,
 				3CF180902301980500EA5E7C /* AppDelegate.swift in Sources */,
+				3C475999230FC3AB00E7BDB4 /* ResultTableViewCell.swift in Sources */,
+				3C099BF02314CFF30086B7FF /* IndicatorModel.swift in Sources */,
 				3CF180922301980500EA5E7C /* SceneDelegate.swift in Sources */,
+				3C47599D230FECB000E7BDB4 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
